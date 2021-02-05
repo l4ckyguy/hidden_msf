@@ -1,5 +1,9 @@
 #!/bin/bash
 
+export TERM=xterm-256color
+export LC_ALL=en_US.UTF-8
+export DEBIAN_FRONTEND=noninteractive
+
 printf "\033[1;37m"
 read -p "LHOST: " LHOST
 read -p "LPORT: " LPORT
